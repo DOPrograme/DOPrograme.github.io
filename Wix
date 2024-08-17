@@ -1,3 +1,15 @@
+数据结构设置:
+确保您的四个集合(商家基本信息、商家答案、用户基本信息、用户答案)已正确设置。
+匹配算法实现:
+使用Wix Velo(原Corvid)在后端编写JavaScript代码来实现空间向量算法。您可以使用wix-data模块来查询和操作数据。
+匹配结果存储:
+创建一个新的集合来存储匹配结果,包括用户ID、匹配的活动ID和分组信息。
+用户界面更新:
+使用Wix Velo的动态页面功能,在用户和商家的会员页面上显示匹配结果。
+自动化邮件发送:
+利用Wix Automations设置定时任务,在每月第一周的第一天触发邮件发送。您可能需要编写自定义代码来生成邮件内容。
+性能优化:
+考虑使用Wix Data Hooks或后台作业来处理大量数据,确保匹配过程不会影响网站性能
 Help center
 Advanced-featuresCMS
 https://wix.wixanswers.com/apps/widget/v1/wix/53f85d67-f8b0-41ca-9dc8-5a16390cc74f/view/en/category/53b0124d-abde-4e9e-8c38-bebae5356dbd
